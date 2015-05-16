@@ -1,0 +1,1 @@
+# hajonta-assets
