@@ -1,0 +1,13 @@
+# Blender MTL File: 'cube.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 74.509804
+Ka 1.000000 1.000000 1.000000
+Kd 0.418499 0.283436 0.096079
+Ks 0.390270 0.308775 0.151813
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood-tex2a.tga
