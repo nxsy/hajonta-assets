@@ -53,6 +53,9 @@ for filename in os.listdir('.'):
     if not filename.endswith('.obj'):
         continue
 
+    if "Brown_Cliff_Top_01_2.obj" not in filename:
+        continue
+
     with open(filename) as f:
         with open("palettised/" + filename, "w") as fw:
             last_mtl = None
