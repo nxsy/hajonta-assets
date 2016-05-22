@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.76.0 commit date:2015-11-03, commit time:10:56, hash:f337fea</authoring_tool>
     </contributor>
-    <created>2016-05-21T14:01:17</created>
-    <modified>2016-05-21T14:01:17</modified>
+    <created>2016-05-21T17:27:54</created>
+    <modified>2016-05-21T17:27:54</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -68,7 +68,7 @@
           </technique_common>
         </source>
         <source id="Mesh1_Plate_Grass_Model-mesh-map-0">
-          <float_array id="Mesh1_Plate_Grass_Model-mesh-map-0-array" count="72">0.4505018 0.3345726 0.4636674 0.3345726 0.4636674 0.4091775 0.411005 0.3345726 0.411005 0.4091775 0.3144575 0.4091775 0.4505018 0.4091775 0.4373363 0.4091775 0.4373363 0.3345726 0.4241707 0.3345726 0.4373362 0.3345726 0.4373363 0.4091775 0.4241706 0.3345726 0.4241707 0.4091775 0.4110051 0.4091775 0.1944244 0.6770129 0.05575901 0.6770129 0.05575901 0.5698622 0.4505019 0.4091775 0.4505018 0.3345726 0.4636674 0.4091775 0.3144575 0.3345726 0.411005 0.3345726 0.3144575 0.4091775 0.4505018 0.3345726 0.4505018 0.4091775 0.4373363 0.3345726 0.4241707 0.4091775 0.4241707 0.3345726 0.4373363 0.4091775 0.411005 0.3345726 0.4241706 0.3345726 0.4110051 0.4091775 0.1944244 0.5698622 0.1944244 0.6770129 0.05575901 0.5698622</float_array>
+          <float_array id="Mesh1_Plate_Grass_Model-mesh-map-0-array" count="72">0.4505018 0.3345726 0.4636674 0.3345726 0.4636674 0.4091775 0.411005 0.3345726 0.411005 0.4091775 0.3144575 0.4091775 0.4505018 0.4091775 0.4373363 0.4091775 0.4373363 0.3345726 0.4241707 0.3345726 0.4373362 0.3345726 0.4373363 0.4091775 0.4241706 0.3345726 0.4241707 0.4091775 0.4110051 0.4091775 0.9444245 0.9270129 0.805759 0.9270129 0.805759 0.8198622 0.4505019 0.4091775 0.4505018 0.3345726 0.4636674 0.4091775 0.3144575 0.3345726 0.411005 0.3345726 0.3144575 0.4091775 0.4505018 0.3345726 0.4505018 0.4091775 0.4373363 0.3345726 0.4241707 0.4091775 0.4241707 0.3345726 0.4373363 0.4091775 0.411005 0.3345726 0.4241706 0.3345726 0.4110051 0.4091775 0.9444245 0.8198622 0.9444245 0.9270129 0.805759 0.8198622</float_array>
           <technique_common>
             <accessor source="#Mesh1_Plate_Grass_Model-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
@@ -92,9 +92,9 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Mesh1_Plate_Grass_Model" name="Mesh1_Plate_Grass_Model" type="NODE">
+      <node id="Plate_Grass" name="Plate_Grass" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Mesh1_Plate_Grass_Model-mesh" name="Mesh1_Plate_Grass_Model">
+        <instance_geometry url="#Mesh1_Plate_Grass_Model-mesh" name="Plate_Grass">
           <bind_material>
             <technique_common>
               <instance_material symbol="merged-material" target="#merged-material"/>
